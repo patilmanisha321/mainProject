@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test-Runner2(failed)">
+    <classes>
+      <class name="contactsTests.CreateContactWithLeadSource">
+        <methods>
+          <include name="BCconfig"/>
+          <include name="ACconfig"/>
+          <include name="BMconfig"/>
+          <include name="BSconfig"/>
+          <include name="CreateAContactWithLead"/>
+          <include name="ASconfig"/>
+          <include name="AMconfig"/>
+        </methods>
+      </class> <!-- contactsTests.CreateContactWithLeadSource -->
+    </classes>
+  </test> <!-- Test-Runner2(failed) -->
+  <test thread-count="5" parallel="tests" name="Test-runner1(failed)">
+    <classes>
+      <class name="contactsTests.CreateContactTest">
+        <methods>
+          <include name="BCconfig"/>
+          <include name="ACconfig"/>
+          <include name="CreateAContact"/>
+          <include name="BMconfig"/>
+          <include name="BSconfig"/>
+          <include name="AMconfig"/>
+          <include name="ASconfig"/>
+        </methods>
+      </class> <!-- contactsTests.CreateContactTest -->
+    </classes>
+  </test> <!-- Test-runner1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
