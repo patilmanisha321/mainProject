@@ -6,12 +6,12 @@
       <class name="contactsTests.CreateContactTest">
         <methods>
           <include name="BCconfig"/>
-          <include name="demoTest"/>
           <include name="ACconfig"/>
+          <include name="CreateAContact"/>
           <include name="BMconfig"/>
           <include name="BSconfig"/>
-          <include name="AMconfig"/>
           <include name="ASconfig"/>
+          <include name="AMconfig"/>
         </methods>
       </class> <!-- contactsTests.CreateContactTest -->
     </classes>
