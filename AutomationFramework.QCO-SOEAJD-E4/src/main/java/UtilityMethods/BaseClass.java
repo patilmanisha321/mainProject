@@ -43,8 +43,8 @@ public class BaseClass
 	{
 		
 		String URL = pUtil.utilityPro("url");
-		driver=new EdgeDriver();
-		
+		//driver=new EdgeDriver();
+		driver=new ChromeDriver();
 		/*if(browser.equals("edge"))
 		{
 			driver=new EdgeDriver();
