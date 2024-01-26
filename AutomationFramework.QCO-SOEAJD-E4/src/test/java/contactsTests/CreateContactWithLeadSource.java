@@ -17,7 +17,7 @@ import objectRepository.LogInPage;
 
 public class CreateContactWithLeadSource extends BaseClass
 {
-	@Test//(groups="regression suite")
+	@Test(groups="regression suite")
 	public void CreateAContactWithLead() throws Throwable
 	{
 		String LASTNAME=eUtil.UtilityMethod("Sheet1", 1, 5);

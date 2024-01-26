@@ -3,17 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="contactsTests.CreateContactTest">
+      <class name="Practice.RetryAnalyzerPractice">
         <methods>
-          <include name="BCconfig"/>
-          <include name="ACconfig"/>
-          <include name="CreateAContact"/>
-          <include name="BMconfig"/>
-          <include name="BSconfig"/>
-          <include name="ASconfig"/>
-          <include name="AMconfig"/>
+          <include name="sample"/>
         </methods>
-      </class> <!-- contactsTests.CreateContactTest -->
+      </class> <!-- Practice.RetryAnalyzerPractice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

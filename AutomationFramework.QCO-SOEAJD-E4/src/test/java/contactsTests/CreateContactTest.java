@@ -20,7 +20,7 @@ import objectRepository.LogInPage;
 @Listeners(UtilityMethods.ListenersImplimintation.class)
 public class CreateContactTest extends BaseClass{
 	
-   @Test//(groups="smoke suite")
+   @Test(groups="smoke suite")
 	public  void CreateAContact() throws Throwable
 	{ 
 	   String LASTNAME=eUtil.UtilityMethod("Sheet1", 1, 5);
